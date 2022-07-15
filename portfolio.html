@@ -44,15 +44,20 @@
         </nav>
         <!--Контакти-->
         <ul class="contacts-list list">
-          <li class="list-item">
-            <a class="link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="list-item">
-            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
+        <li class="contacts-list-item">
+          <a class="contacts-link link" href="mailto:info@devstudio.com">
+            <svg class="contacts-icon list" width="16" hight="12">
+              <use href=".//img/icons.svg#mail"></use>
+            </svg>info@devstudio.com
+          </a>
+        </li>
+        <li class="contacts-list-item">
+          <a class="link" href="tel:+380961111111">
+            <svg class="contacts-icon list" width="10" hight="16">
+              <use href=".//img/icons.svg#smartphone"></use>
+            </svg>+38 096 111 11 11</a>
+        </li>
+      </ul>
       </div>
     </header>
     <!--Основний контент-->
@@ -227,35 +232,64 @@
     </main>
     <!--Футер-->
     <footer class="logo-footer">
-      <div class="container">
-        <a class="logo-link-footer link" href="./index.html"
-          ><span class="logo-accent">Web</span>Studio</a
-        >
-        <address class="address">
-          <ul class="address-list list">
-            <li class="address-item">
-              <a
-                class="link-main link"
-                href="https://goo.gl/maps/8VHhELHLWFrZVTvB6"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                г.Киев,пр-т Леси Украинки,26
-              </a>
-            </li>
-            <li class="address-item">
-              <a class="link-secondary link" href="mailto:info@example.com"
-                >info@example.com</a
-              >
-            </li>
-            <li class="address-item">
-              <a class="link-secondary phone link" href="tel:+380991111111"
-                >+38 099 111 11 11</a
-              >
-            </li>
-          </ul>
-        </address>
+    <div class="container footer-container">
+      <div class="logo-adress-footer">
+        <a class="logo-link-footer link" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
+      <address class="address">
+        <ul class="address-list list">
+          <li class="address-item">
+            <a class="link-main link" href="https://goo.gl/maps/8VHhELHLWFrZVTvB6" target="_blank"
+              rel="noreferrer noopener">
+              г.Киев,пр-т Леси Украинки,26
+            </a>
+          </li>
+          <li class="address-item">
+            <a class="link-secondary link" href="mailto:info@example.com">info@example.com</a>
+          </li>
+          <li class="address-item">
+            <a class="link-secondary phone link" href="tel:+380991111111">+38 099 111 11 11</a>
+          </li>
+        </ul>
+      </address>
+      </div>   
+      <div class="footer-icons">
+        <h3 class="footer-title">Приєднуйтесь</h3>
+        <ul class="footer-socials list">
+          <li class="footer-social-item">
+            <a class="footer-social-links link" href="" target="_blank" rel="noopener noreferrer"
+              aria-label="иконка instagram">
+              <svg class="footer-social-icon" width="20" hight="20">
+                <use href=".//img/icons.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="footer-social-links link" href="" target="_blank" rel="noopener noreferrer"
+              aria-label="иконка instagram">
+              <svg class="footer-social-icon" width="20" hight="20">
+                <use href=".//img/icons.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="footer-social-links link" href="" target="_blank" rel="noopener noreferrer"
+              aria-label="иконка instagram">
+              <svg class="footer-social-icon" width="20" hight="20">
+                <use href=".//img/icons.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="footer-social-links link" href="" target="_blank" rel="noopener noreferrer"
+              aria-label="иконка instagram">
+              <svg class="footer-social-icon" width="20" hight="20">
+                <use href=".//img/icons.svg#linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
-    </footer>
+    </div>
+  </footer>
   </body>
 </html>
