@@ -577,11 +577,11 @@ background-color: var(--accent-color);
     justify-content: center;
     width: 44px;
     height: 44px;
-    background-color: var(--secondary-color);
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
 }
 .footer-social-icon {
-    fill: var(--bgc-col-dark)
+    fill: rgba(255, 255, 255, 0.1)
 }
 .footer-social-icon {
     fill: var(--main-color);
