@@ -468,21 +468,19 @@ background-color: var(--accent-color);
 .contacts-link{
     color: var(--primary-text-color);
 }
-.list-item .contacts-link:hover,
-.list-item .contacts-link:focus,
-.list-item .contacts-link:active {
+ .contacts-link:hover,
+ .contacts-link:focus,
+ .contacts-link:active {
     color: var(--accent-color);
 }
 .contacts-link {
     text-decoration: none;
     display: flex;
     align-items: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .contacts-icon {
-    display: inline-block;
+    display: block;
     content: "";
     fill: currentColor;
     margin-right: 10px;
